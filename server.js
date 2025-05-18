@@ -83,3 +83,6 @@ app.post("/api/leetcode", async (req, res) => {
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+
+// Export the app as the default export for Vercel
+export default app;
