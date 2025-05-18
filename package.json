@@ -1,0 +1,18 @@
+{
+  "name": "revsy-backend",
+  "version": "1.0.0",
+  "description": "backend proxy server for leetcode fetch api",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "icode100",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "html-to-text": "^9.0.5",
+    "node-fetch": "^3.3.2"
+  }
+}
